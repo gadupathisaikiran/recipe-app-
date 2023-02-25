@@ -105,7 +105,8 @@ router.post("/signin", async (req, res) => {
 
         if (user) {
 
-            const compare = bcrypt.compare(req.body.password, user.password)
+          
+            const compare =await bcrypt.compare(req.body.password,user.password)
 
             if (!compare) {
                 return res.status(400).json({
