@@ -33,7 +33,7 @@ export default function Home() {
             }
 
 
-            const res = await axios.post("http://localhost:5002/user/logedin", headers)
+            const res = await axios.post("https://recipe-app-290d.onrender.com/user/logedin", headers)
 
          
 
@@ -61,13 +61,13 @@ export default function Home() {
         async function data() {
             if (Search.title) {
 
-                await axios.get(`http://localhost:5002/user/home/${Search.title}`).then((data) => {
+                await axios.get(`https://recipe-app-290d.onrender.com/user/home/${Search.title}`).then((data) => {
                     setData(data.data.post)
                 })
             }
             else {
 
-                await axios.get("http://localhost:5002/user/home").then((data) => {
+                await axios.get("https://recipe-app-290d.onrender.com/user/home").then((data) => {
                     setData(data.data.post)
                 })
             }
