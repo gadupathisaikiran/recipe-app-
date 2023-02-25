@@ -30,7 +30,7 @@ export default function Post() {
    
      try{
     
-        const res=await axios.post("http://localhost:5002/user/post",recipe)
+        const res=await axios.post("https://recipe-app-290d.onrender.com/user/post",recipe)
 
       console.log(res)
 
