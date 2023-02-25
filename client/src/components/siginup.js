@@ -43,6 +43,7 @@ export default function Siginup() {
         if(user){
             if(!user.email.match(emailreg)){
                 alert("not a valid email")
+                return
             }
             if(user.password!==confpass.password){
                 alert("password is not matching")
