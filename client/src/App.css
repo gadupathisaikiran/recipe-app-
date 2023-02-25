@@ -1,0 +1,71 @@
+.App {
+background-color: #9f9f9f;
+  text-align: center;
+  color: black;
+  width: 100%;
+
+}
+
+.login-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  animation:bg 10s infinite ;
+ 
+}
+@keyframes bg{
+  0%{
+    background: linear-gradient(rgb(54, 180, 205),rgb(11, 176, 124));
+  }
+  100%{
+    background: linear-gradient(rgb(221, 146, 167),rgb(109, 55, 70));
+  }
+}
+
+.home-container{
+  background-color: #9f9f9f;
+ 
+  display: inline;
+  height: 1000px;
+  width: 100%;
+  padding-top: 150px;;
+}
+.card{
+  display: inline-block;
+  width: 30%;
+  height: 45%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+.search{
+  background-color: #282c34;
+  color: white;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
