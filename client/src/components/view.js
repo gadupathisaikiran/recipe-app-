@@ -22,7 +22,7 @@ export default function Show(props) {
 
         async function main() {
 
-            const res = await axios.get(`http://localhost:5002/user/home/view/${id}`)
+            const res = await axios.get(`https://recipe-app-290d.onrender.com/user/home/view/${id}`)
 
             if (res.data) {
 
