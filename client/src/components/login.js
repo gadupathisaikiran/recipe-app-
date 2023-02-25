@@ -67,6 +67,8 @@ function submit(){
         
         if(!user.email.match(emailreg)){
             alert("not a valid email")
+            
+            return
         }
 
         else{
