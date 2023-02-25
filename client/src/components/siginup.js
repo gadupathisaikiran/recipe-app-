@@ -73,7 +73,7 @@ export default function Siginup() {
     <input style={{display:"inline"}} type="checkbox" onChange={()=>{settoggle(!toggle)}}></input><p style={{color:"white",display:"inline"}}>"I AGREE WITH TERMS AND CONDITIONS"</p>
    
     <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{submit()}} disabled={toggle}>REGISTER</button><br/>
-    <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{navigate("/user/signin")}}>SIGNIN</button>
+    <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{navigate("/")}}>SIGNIN</button>
     
 
 
