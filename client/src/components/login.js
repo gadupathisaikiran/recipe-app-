@@ -93,7 +93,7 @@ function submit(){
       <input type="password" placeholder='password' style={{width:"350px",height:"30px",fontSize:"22px",marginBottom:"20px"}}  onChange={(e)=>{setuser({...user,password:e.target.value})}}></input><br/>
      
        <input type="checkbox"></input><p style={{color:"white"}}>"REMEMBER ME"</p>
-      <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{submit()}}>SIGNIN</button><br/>
+      <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{submit()}}>SIGN IN</button><br/>
       <button style={{width:"200px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onClick={()=>{navigate("/user/signup")}}>REGISTER</button>
 
 
