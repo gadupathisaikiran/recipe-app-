@@ -107,7 +107,7 @@ export default function Home() {
          
 
 
-            <img style={{ width: "10%", height: "12%", cursor: "pointer", position: "fixed", left: "0px", cursor: "pointer" }} onClick={() => { logout() }} src='https://media.istockphoto.com/id/981368726/vector/restaurant-food-drinks-logo-fork-knife-background-vector-image.jpg?s=612x612&w=0&k=20&c=9M26CBkCyEBqUPs3Ls5QCjYLZrB9sxwrSFmnAmNCopI='></img>
+            <img style={{ width: "10%", height: "12%", cursor: "pointer", position: "fixed", left: "0px", cursor: "pointer" }} data-hover="logout" onClick={() => { logout() }} src='https://media.istockphoto.com/id/981368726/vector/restaurant-food-drinks-logo-fork-knife-background-vector-image.jpg?s=612x612&w=0&k=20&c=9M26CBkCyEBqUPs3Ls5QCjYLZrB9sxwrSFmnAmNCopI='></img>
      {
         !View&&
             <div className='home-container' >
