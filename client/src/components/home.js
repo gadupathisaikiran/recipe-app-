@@ -82,6 +82,9 @@ export default function Home() {
 
         sessionStorage.clear()
         navigate("/")
+        alert("loged out........")
+        
+        return
 
     }
 
