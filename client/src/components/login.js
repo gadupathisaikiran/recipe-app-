@@ -87,7 +87,7 @@ function submit(){
 
   return (
     <div className='login-container'>
-      <h1>SIGNIN</h1>
+      <h1>SIGN IN</h1>
 
       <input type="email" placeholder='email' style={{width:"350px",height:"30px",fontSize:"22px",marginBottom:"20px"}} onChange={(e)=>{setuser({...user,email:e.target.value})}} ></input><br/>
       <input type="password" placeholder='password' style={{width:"350px",height:"30px",fontSize:"22px",marginBottom:"20px"}}  onChange={(e)=>{setuser({...user,password:e.target.value})}}></input><br/>
